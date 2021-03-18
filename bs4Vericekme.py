@@ -9,17 +9,7 @@ url = ["https://www.epey.com/akilli-telefonlar/",
        "https://www.epey.com/akilli-telefonlar/7/",
        "https://www.epey.com/akilli-telefonlar/8/",
        "https://www.epey.com/akilli-telefonlar/9/",
-       "https://www.epey.com/akilli-telefonlar/10/",
-       "https://www.epey.com/akilli-telefonlar/11/",
-       "https://www.epey.com/akilli-telefonlar/12/",
-       "https://www.epey.com/akilli-telefonlar/13/",
-       "https://www.epey.com/akilli-telefonlar/14/",
-       "https://www.epey.com/akilli-telefonlar/15/",
-       "https://www.epey.com/akilli-telefonlar/16/",
-       "https://www.epey.com/akilli-telefonlar/17/",
-       "https://www.epey.com/akilli-telefonlar/18/",
-       "https://www.epey.com/akilli-telefonlar/19/",
-       "https://www.epey.com/akilli-telefonlar/20/"]
+       "https://www.epey.com/akilli-telefonlar/10/"]
 i=0
 for j in url:
         html = requests.get(j).content
